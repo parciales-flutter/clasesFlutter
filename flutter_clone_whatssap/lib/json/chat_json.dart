@@ -5,22 +5,35 @@ const List profile = [
   {
     "name": "Juan Perez",
     "img":
-        "https://images.pexels.com/photos/1435517/pexels-photo-1435517.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://images.pexels.com/photos/1462980/pexels-photo-1462980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "name": "Maria Perez",
+    "img":
+        "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   }
 ];
+
 const List chat_data = [
   {
-    "name": "Doctor simio",
     "img":
-        "https://images.pexels.com/photos/66216/pexels-photo-66216.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "text": "Hola perro",
+        "https://images.pexels.com/photos/1557801/pexels-photo-1557801.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "name": "Doctor Lagarto",
+    "text": "Llamada entrante",
     "date": "24/02/2023"
   },
   {
-    "name": "Juan Perez",
     "img":
-        "https://images.pexels.com/photos/66216/pexels-photo-66216.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "text": "Hola simio",
+        "https://images.pexels.com/photos/1557801/pexels-photo-1557801.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "name": "Pepe Lagarto",
+    "text": "Hola Lagartija como estas?",
+    "date": "24/02/2023"
+  },
+  {
+    "img":
+        "https://images.pexels.com/photos/1557801/pexels-photo-1557801.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "name": "Rikis Lagarto",
+    "text": "Hola Lagartija como estas?",
     "date": "24/02/2023"
   }
 ];
@@ -33,22 +46,22 @@ List config_secc_uno = [
     "color": Colors.green[800]
   }
 ];
-
 List config_secc_dos = [
-  {"icon": Icons.lock, "text": "Cuenta", "color": Colors.blue[700]},
-  {"icon": Icons.chat_bubble, "text": "Chats", "color": Colors.green[800]},
   {
-    "icon": Icons.notification_important,
-    "text": "Notificaciones",
-    "color": Colors.redAccent[800]
-  },
-  {
-    "icon": LineIcons.database,
-    "text": "Almacenar and respaldos",
-    "color": Colors.green[800]
+    {"icon": Icons.lock, "text": "Cuenta", "color": Colors.blue[700]},
+    {"icon": Icons.chat_bubble, "text": "Chats", "color": Colors.green},
+    {
+      "icon": Icons.notification_important,
+      "text": "Notificaciones",
+      "color": Colors.redAccent
+    },
+    {
+      "icon": LineIcons.database,
+      "text": "Almacenar and respaldos",
+      "color": Colors.green
+    }
   }
 ];
-
 List config_secc_tres = [
   {"icon": Icons.info_outline, "text": "Help", "color": Colors.blue[600]},
   {
