@@ -3,7 +3,7 @@ import 'package:flutter_clone_whatssap/temas/colores.dart';
 
 class ChatPagina extends StatefulWidget {
   const ChatPagina({super.key});
-
+//prueba de agregar comentario por git
   @override
   State<ChatPagina> createState() => _ChatPaginaState();
 }
