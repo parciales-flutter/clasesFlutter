@@ -19,11 +19,16 @@ class _PrincipalState extends State<Principal> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: white,
-      appBar: getAppBar(),
-      body: getBody(),
-      bottomNavigationBar: getFooter(),
-    );
+        backgroundColor: white,
+        appBar: getAppBar(),
+        body: getBody(),
+        bottomNavigationBar: getFooter(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: null,
+          child: const Icon(Icons.add),
+        ),
+        floatingActionButtonLocation:
+            FloatingActionButtonLocation.centerDocked);
   }
 
   PreferredSizeWidget getAppBar() {
